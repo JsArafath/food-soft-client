@@ -19,7 +19,7 @@ const MenuDetails = () => {
    const { register, handleSubmit, reset } = useForm();
    const onSubmit = data =>{
        console.log(data);
-       axios.post("https://pacific-chamber-54725.herokuapp.com/booking",data)
+       axios.post("http://localhost:8000/booking",data)
        .then(res=>{
            if(res.data.insertedId){
               alert("Added Successfully.")
@@ -33,7 +33,7 @@ const MenuDetails = () => {
      const {id} = useParams();
     const [food,setFood] = useState({})
      useEffect(()=>{
-         fetch(`https://pacific-chamber-54725.herokuapp.com/cars/${id}`)
+         fetch(`http://localhost:8000/cars/${id}`)
        .then(res=>res.json())
         .then(data=>setFood(data))
 
@@ -52,7 +52,7 @@ const MenuDetails = () => {
                 <div className="card-body text-start">
                   <h5 className="card-title">{food.name}</h5>
                   <p className="card-text">{food.description}.</p>
-                  <h5 className="card-title">$ {food.price}/person</h5>
+                  <h5 className="card-title">$ {food.price}</h5>
                 </div>
               </div>
             </div>

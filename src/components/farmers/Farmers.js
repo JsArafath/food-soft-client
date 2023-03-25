@@ -6,7 +6,7 @@ const Farmers = () => {
 
 
     return (
-        <div className='farmers'>
+        <div className='farmers pb-5 pt-5'>
             <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/icon5.png' className='d-flex mx-auto'></img>
             <h1 className='fw-bold text-center'>Our Farmers</h1>
             <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmotempor<br></br> incididunt labore dolore magna aliqua minim veniam</p>

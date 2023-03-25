@@ -1,11 +1,18 @@
-.footer-container{
-    background-color:rgb(8, 25, 82);
-    color: white;
+.footer{
+    background-color: #f1f6fa;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
     
 }
-.footer-title{
-    color:rgb(238, 224, 222);
+.btn-footer{
+    background-color: #ace9b0;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
 }
-.footer-item h3{
-   color: white;
+.footer-2nd{
+    margin-top: 60px;
 }

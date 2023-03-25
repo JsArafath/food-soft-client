@@ -8,7 +8,7 @@ const Pay = () => {
     const {paymentId} = useParams();
     const [appointment,setAppointment] = useState({})
      useEffect(()=>{
-         fetch(`https://pacific-chamber-54725.herokuapp.com/cars/${paymentId}`)
+         fetch(`http://localhost:8000/cars/${paymentId}`)
        .then(res=>res.json())
         .then(data=>setAppointment(data))
 

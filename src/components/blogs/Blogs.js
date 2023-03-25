@@ -1,39 +1,61 @@
-import React, {useState} from 'react';
+import React from 'react';
+import axios from 'axios';
+import { useForm } from "react-hook-form";
+// import './Articles.css';
+import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Blogs.css';
+
 const Blogs = () => {
- 
-    return (
-        <div>
-        <h1 className="text-center mb-4">Our Latest Blogs</h1>
-            <div class="container">
-  <div class="row">
-    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-      <Link to="/watches">
-      <img src="https://storage.googleapis.com/theme-vessel-items/checking-sites/autocar-html/HTML/main/img/blog/blog-2.jpg" className='img-fluid'>
-      </img>
-      </Link>
-     <Link> <h5 className='text-center text-dark'>Find Your Dream Car</h5></Link>
-     <p className='text-center'>by Auto Car</p>
-    </div>
-    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-      <Link to="/watches">
-      <img src="https://storage.googleapis.com/theme-vessel-items/checking-sites/autocar-html/HTML/main/img/blog/blog-3.jpg" className='img-fluid'>
-      </img>
-      </Link>
-      <Link> <h5 className='text-center text-dark'>Buying a Best Sports Car</h5></Link>
-     <p className='text-center'>by Auto Car</p>
-    </div>
-    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-     <Link to="/watches">
-      <img src="https://storage.googleapis.com/theme-vessel-items/checking-sites/autocar-html/HTML/main/img/blog/blog-1.jpg" className='img-fluid'></img>
-      </Link>
-      <Link> <h5 className='text-center text-dark'>Selling Your New Cars?</h5></Link>
-     <p className='text-center'>by Auto Car</p>
-    </div>
     
-  </div>
-</div>
+    return (
+      <div className='services'>
+<img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/icon7.png' className='img-fluid d-flex mx-auto'></img>
+          <h1 className='fw-bold text-center mb-3'>Articles & Tips</h1>
+         
+<Container>
+  <Row>
+    <Col sm={12} md={6} lg={4}>
+    <Card className='me-2 card mb-2'>
+    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Body>
+      <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
+      <Card.Text className='text-center'>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+      </Card.Text>
+      
+      <Link ><button className='text-dark  btn-service'>Read</button></Link>
+    </Card.Body>
+    
+  </Card>
+    </Col>
+    <Col sm={12} md={6} lg={4}>
+    <Card className='me-2 card mb-2'>
+    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Body>
+      <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
+      <Card.Text className='text-center'>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+      </Card.Text>
+      
+      <Link ><button className='text-dark  btn-service'>Read</button></Link>
+    </Card.Body>
+    
+  </Card>
+    </Col>
+    <Col sm={12} md={6} lg={4}>
+    <Card className='me-2 card'>
+    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Body>
+      <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
+      <Card.Text className='text-center'>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+      </Card.Text> 
+      <Link ><button className='text-dark  btn-service'>Read</button></Link>
+    </Card.Body> 
+  </Card>
+    </Col> 
+  </Row>
+</Container>
         </div>
     );
 };

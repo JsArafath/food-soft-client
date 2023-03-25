@@ -38,10 +38,8 @@ import './Dashboard.css';
 import ManageOrder from '../manageorders/ManageOrder';
 import MyOrder from '../myorders/MyOrder';
 import Home from '../home/Home';
-import Review from '../review/Review';
 import MakeAdmin from '../makeadmin/MakeAdmin';
-import AddCar from '../addcar/AddCar';
-import AddSpecial from '../addspecial/AddSpecial';
+import AddProducts from '../AddProducts/AddProducts';
 import Pay from '../pay/Pay';
 const drawerWidth = 200;
 
@@ -65,9 +63,7 @@ function Dashboard(props) {
                     <br></br>
  <Link to={`${url}`}><Button color="inherit">Dashboard</Button></Link>
             <br></br>
-            <Link to={`${url}/addcars`} className='dash text-dark'><Button color="inherit">Add Car</Button></Link>
-            <br></br>
-            <Link to={`${url}/addspecial`} className='dash text-dark'><Button color="inherit">Add Special Cars</Button></Link>
+            <Link to={`${url}/addproducts`} className='dash text-dark'><Button color="inherit">Add Products</Button></Link>
             <br></br>
             <Link to={`${url}/manageorder`} className='dash text-dark'><Button color="inherit">All orders</Button></Link>   
             <br></br> 
@@ -85,7 +81,7 @@ function Dashboard(props) {
             <br></br>
            
             <br></br>
-            <Link to={`${url}/review`} className='dash text-dark'><Button color="inherit">Add Review</Button></Link> 
+            {/* <Link to={`${url}/review`} className='dash text-dark'><Button color="inherit">Add Review</Button></Link>  */}
               </Box>
           } 
 
@@ -184,23 +180,17 @@ function Dashboard(props) {
                     </Route>
                     
                    
-                    <Route path={`${path}/addcars`}>
-                       <AddCar></AddCar>
+                    <Route path={`${path}/addproducts`}>
+                       <AddProducts></AddProducts>
                     </Route>
                     <Route path={`${path}/pay/:paymentId`}>
                        <Pay></Pay>
-                    </Route>
-                    <Route path={`${path}/addspecial`}>
-                      <AddSpecial></AddSpecial>
                     </Route>
                     <Route path={`${path}/manageorder`}>
                         <ManageOrder></ManageOrder>
                     </Route>
                     <Route path={`${path}/myorder`}>
                        <MyOrder></MyOrder>
-                    </Route>
-                    <Route path={`${path}/review`}>
-                     <Review></Review>
                     </Route>
                     <Route path={`${path}/makeadmin`}>
                      <MakeAdmin></MakeAdmin>

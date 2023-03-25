@@ -7,9 +7,9 @@ const IndividualProduct = (props) => {
     const {_id, name, rating, description, price, img } = props.foods;
     return (
 
-        <Col>
+        <Col className=' rounded coloo card'>
           
-                <Card.Img variant="top" src={img} />
+                <Card.Img variant="top" className='h-50 w-100' src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     
@@ -20,7 +20,7 @@ const IndividualProduct = (props) => {
                 <Card.Body className="d-flex justify-content-between">
    
                     <Card.Text>
-                        {rating} KM/h
+                    Season: All Year
                     </Card.Text>
                     <Card.Text>
                         $ {price}

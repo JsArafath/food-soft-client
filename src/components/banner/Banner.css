@@ -4,7 +4,7 @@
     text-align: center;
 }
 .buy{
-    background-color: rgb(17, 131, 146);
+    background-color: rgb(224, 224, 224);
     color:white
 }
 .rental{
@@ -22,8 +22,8 @@
 
 
 .btn-regular{
-    background-color:rgb(21, 45, 126) ;
-    color: white;
+    background-color:#1194ff ;
+    color: rgb(182, 174, 174, 84, 174, 174);
     padding:8px 25px;
     border:0
 }

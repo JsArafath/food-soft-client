@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import './Choose.css';
 const Choose = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-5 mb-5'>
             <div class="container">
   <div class="row">
   <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">

@@ -5,7 +5,7 @@ const MyOrder = () => {
     const [foods, setFoods] = useState([])
     const {user} = useAuth();
     useEffect(() => {
-        fetch(`https://pacific-chamber-54725.herokuapp.com/booking?email=${user.email}`)
+        fetch(`http://localhost:8000/booking?email=${user.email}`)
             .then(res => res.json())
             .then(data => setFoods(data));
     }, [])
@@ -32,7 +32,7 @@ const MyOrder = () => {
           <div class="col-12 col-sm-12 col-md-4 col-lg-3">
           <table>
            <tr>
-           <th className='pb-2 order-heading'>Car Name:</th>
+           <th className='pb-2 order-heading'>Products Name:</th>
            </tr>
            <tr>
           <td className='pb-4'>{pd.productName}</td>

@@ -13,12 +13,10 @@ import Contact from './components/contact/Contact';
 import MakeAdmin from './components/makeadmin/MakeAdmin';
 import Products from './components/products/Products';
 import MenuDetails from './components/menudetails/MenuDetails';
-import Articles from './components/articles/Articles';
+import Blogs from './components/blogs/Blogs'
 import Faq from './components/faq/Faq';
-import AddReviews from './components/addreviews/AddReviews';
-import AddCar from './components/addcar/AddCar';
-import AddSpecial from './components/addspecial/AddSpecial';
-import Test from './components/Test';
+import AddProducts from './components/AddProducts/AddProducts';
+import Gallary from './components/gallary/Gallary';
 
 function App() {
   return (
@@ -39,17 +37,11 @@ function App() {
         <Route exact path="/products">
          <Products></Products>
         </Route>
-        <Route exact path="/addcars">
-      <AddCar></AddCar>
+        <Route exact path="/services">
+         <Gallary></Gallary>
         </Route>
-        <Route exact path="/addspecial">
-     <AddSpecial></AddSpecial>
-        </Route>
-        <Route exact path="/test">
-    <Test></Test>
-        </Route>
-        <Route exact path="/addreviews">
-     <AddReviews></AddReviews>
+        <Route exact path="/addproducts">
+      <AddProducts></AddProducts>
         </Route>
         <Route  path="/dashboard">
           <Dashboard></Dashboard>
@@ -73,7 +65,7 @@ function App() {
           <Contact></Contact>
         </Route>
         <Route exact path="/blogs">
-         <Articles></Articles>
+         <Blogs></Blogs>
         </Route>
       </Switch>
       </BrowserRouter>

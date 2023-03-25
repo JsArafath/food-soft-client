@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBXner2NaIp-40GHKBS-OywfIHE6jJzwH8",
-  authDomain: "motors-69a7d.firebaseapp.com",
-  projectId: "motors-69a7d",
-  storageBucket: "motors-69a7d.appspot.com",
-  messagingSenderId: "601844149332",
-  appId: "1:601844149332:web:c981e9347424b41b9311c1"
+  apiKey: "AIzaSyDqb26ds7DdylHEAzcivy29Cm1WD9kAXjM",
+  authDomain: "food-soft.firebaseapp.com",
+  projectId: "food-soft",
+  storageBucket: "food-soft.appspot.com",
+  messagingSenderId: "997697856815",
+  appId: "1:997697856815:web:5120516761d685894bedda"
 };
 export default firebaseConfig;

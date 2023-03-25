@@ -3,22 +3,57 @@ import {Container, Row, Col} from 'react-bootstrap';
 import './About.css';
 const About = () => {
     return (
-        <div className='bg-about'>
-          <Container>
+        <div className='mt-5 mb-5'>
+            <div class="container">
+  <div class="row">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+      <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/about1.png' className='img-fluid  about-image mt-4 w-100'></img>
+      
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <h1 className='fs-1 about-heading pb-3 text-dark mx-4'>The Best Trusted Farms For You</h1>
+      <p className='text-secondary mx-4'>Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip
+</p>
+<Container>
   <Row>
-    <Col sm={12} md={6} lg={6}>
-      <img src='https://motors.stylemixthemes.com/wp-content/uploads/2015/10/about-us-1-529x290.jpg' className='img-fluid'></img>
+    <Col sm={12} md={12} lg={3}>
+<img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea1.png' className='img-fluid mb-3'></img>
+
     </Col>
-    <Col sm={12} md={6} lg={6}>
-      <h2>WELCOME TO THE MOTORS</h2>
-      <p>Before we get ahead of ourselves, we want to welcome you to Loeber Motors. While nothing can replace thing on-the-lot experience.
-We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations. Undoubtedly, that has a lot to do with the vehicles you are considering, but at Motors, we think you should also have pretty high expectations for your dealership.
-<br></br>
- — MIKEY DIOKLES, President of Motors</p>
+    <Col sm={12} md={12} lg={9}>
+      <h3>Natural Foods</h3>
+      <p>Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo temincididunt labore apericons.</p>
     </Col>
   </Row>
+  <Row>
+    <Col sm={12} md={12} lg={3}>
+    <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea2.png' className='img-fluid mb-3'></img>
+    </Col>
+    <Col sm={12} md={12} lg={9}>
+    <h3>Safe Formalin</h3>
+      <p>Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo temincididunt labore apericons.</p>
+    </Col>
+   
+  </Row>
+  <Row>
+    <Col sm={12} md={12} lg={3}>
+    <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea3.png' className='img-fluid'></img>
+    </Col>
+    <Col sm={12} md={12} lg={9}>
+    <h3>100% Testy Food</h3>
+      <p>Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo temincididunt labore apericons.</p>
+    </Col>
   
+  </Row>
 </Container>
+
+    </div>
+    
+    
+  </div>
+ 
+</div>
 
         </div>
     );

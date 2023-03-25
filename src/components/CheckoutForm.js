@@ -11,7 +11,7 @@ const CheckoutForm = ({appointment}) => {
     const elements = useElements();
 const {user} = useAuth();
 useEffect(()=>{
-fetch('https://pacific-chamber-54725.herokuapp.com/create-payment-intent',{
+fetch('http://localhost:8000/create-payment-intent',{
   method:'POST',
   headers: {
     'content-type':'application/json'
@@ -72,7 +72,7 @@ created:paymentIntent.created,
 last4:paymentMethod.card.last4
 
 }
-const url = `https://pacific-chamber-54725.herokuapp.com/cars/${_id}`;
+const url = `http://localhost:8000/cars/${_id}`;
 fetch(url, {
   method: 'PUT',
   headers: {
