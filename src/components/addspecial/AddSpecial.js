@@ -7,7 +7,7 @@ const AddSpecial = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:8000/special',data)
+        axios.post('https://food-soft-server-jsarafath.vercel.app/special',data)
         .then(res=>{
            if(res.data.insertedId){
                alert('Added Successfully');

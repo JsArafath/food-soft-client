@@ -6,7 +6,7 @@ import './Instructor.css';
 const Instructor = () => {
     const [instructor, setInstructor] = useState([])
     useEffect(()=>{
-fetch('http://localhost:8000/instructor')
+fetch('https://food-soft-server-jsarafath.vercel.app/instructor')
 .then(res => res.json())
 .then(data => setInstructor(data))
     },[])

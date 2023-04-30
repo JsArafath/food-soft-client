@@ -8,7 +8,7 @@ import './HomeProduct.css';
 const HomeProduct= () => {
     const [food, setFood] = useState([])
     useEffect(()=>{
-fetch('http://localhost:8000/courses')
+fetch('https://food-soft-server-jsarafath.vercel.app/courses')
 .then(res => res.json())
 .then(data => setFood(data))
     },[])

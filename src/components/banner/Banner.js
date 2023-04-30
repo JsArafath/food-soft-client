@@ -15,7 +15,7 @@ const Banner = () => {
                         <Col>
                             <img
                                 className="d-flex mx-auto h-50"
-                                src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/bg3.png'
+                                src='https://i.ibb.co/sW6d8KD/about-removebg-preview.png'
                                 alt="First slide"
                             />
                            
@@ -34,7 +34,7 @@ const Banner = () => {
                         <Col>
                             <img
                                 className="d-flex mx-auto h-50"
-                                src="https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/about1.png"
+                                src="https://i.ibb.co/2WwwxkN/bg1-2-removebg-preview.png"
                                 alt="First slide"
                             />
                         </Col>
@@ -51,7 +51,7 @@ const Banner = () => {
                         <Col>
                             <img
                                 className="d-flex mx-auto h-50"
-                                src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/deal.png'
+                                src='https://i.ibb.co/Lrq15Fm/about1.png'
                                 alt="First slide"
                             />
                         </Col>

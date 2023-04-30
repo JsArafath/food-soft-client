@@ -6,7 +6,7 @@ const ManageOrder = () => {
     const [foods, setFoods] = useState([])
     const {user} = useAuth();
     useEffect(() => {
-        fetch('http://localhost:8000/booking')
+        fetch('https://food-soft-server-jsarafath.vercel.app/booking')
             .then(res => res.json())
             .then(data => setFoods(data));
     }, [])

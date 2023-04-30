@@ -7,7 +7,7 @@ const IndividualProduct = (props) => {
     const {_id, name, rating, description, price, img } = props.foods;
     return (
 
-        <Col className=' rounded coloo card'>
+        <Col className=' rounded coloo card '>
           
                 <Card.Img variant="top" className='h-50 w-100' src={img} />
                 <Card.Body>

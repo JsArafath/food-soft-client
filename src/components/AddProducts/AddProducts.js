@@ -7,7 +7,7 @@ const AddProducts = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:8000/products',data)
+        axios.post('https://food-soft-server-jsarafath.vercel.app/products',data)
         .then(res=>{
            if(res.data.insertedId){
                alert('Added Successfully');

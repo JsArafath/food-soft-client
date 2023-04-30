@@ -8,7 +8,7 @@ const Pay = () => {
     const {paymentId} = useParams();
     const [appointment,setAppointment] = useState({})
      useEffect(()=>{
-         fetch(`http://localhost:8000/cars/${paymentId}`)
+         fetch(`https://food-soft-server-jsarafath.vercel.app/cars/${paymentId}`)
        .then(res=>res.json())
         .then(data=>setAppointment(data))
 

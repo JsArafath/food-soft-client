@@ -9,14 +9,14 @@ const Blogs = () => {
     
     return (
       <div className='services'>
-<img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/icon7.png' className='img-fluid d-flex mx-auto'></img>
+<img src='https://i.ibb.co/tJYPJZ6/icon7.png' className='img-fluid d-flex mx-auto'></img>
           <h1 className='fw-bold text-center mb-3'>Articles & Tips</h1>
          
 <Container>
   <Row>
     <Col sm={12} md={6} lg={4}>
     <Card className='me-2 card mb-2'>
-    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Img variant="top" src="https://i.ibb.co/0rYM0SK/blog1-1.jpg" className='img-fluid w-75 d-flex mx-auto' />
     <Card.Body>
       <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
       <Card.Text className='text-center'>
@@ -30,7 +30,7 @@ const Blogs = () => {
     </Col>
     <Col sm={12} md={6} lg={4}>
     <Card className='me-2 card mb-2'>
-    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Img variant="top" src="https://i.ibb.co/thPDP8z/blog2-1.jpg" className='img-fluid w-75 d-flex mx-auto' />
     <Card.Body>
       <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
       <Card.Text className='text-center'>
@@ -44,7 +44,7 @@ const Blogs = () => {
     </Col>
     <Col sm={12} md={6} lg={4}>
     <Card className='me-2 card'>
-    <Card.Img variant="top" src="https://shtheme.info/demosd/orgafe/wp-content/uploads/2019/04/blog1.jpg" className='img-fluid w-75 d-flex mx-auto' />
+    <Card.Img variant="top" src="https://i.ibb.co/0rYM0SK/blog1-1.jpg" className='img-fluid w-75 d-flex mx-auto' />
     <Card.Body>
       <Card.Title className='text-center'> EXCEPTEUR SINT OCCAECAT CUPIDATAT</Card.Title>
       <Card.Text className='text-center'>

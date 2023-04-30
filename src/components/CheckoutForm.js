@@ -11,7 +11,7 @@ const CheckoutForm = ({appointment}) => {
     const elements = useElements();
 const {user} = useAuth();
 useEffect(()=>{
-fetch('http://localhost:8000/create-payment-intent',{
+fetch('https://food-soft-server-jsarafath.vercel.app/create-payment-intent',{
   method:'POST',
   headers: {
     'content-type':'application/json'
@@ -72,7 +72,7 @@ created:paymentIntent.created,
 last4:paymentMethod.card.last4
 
 }
-const url = `http://localhost:8000/cars/${_id}`;
+const url = `https://food-soft-server-jsarafath.vercel.app/cars/${_id}`;
 fetch(url, {
   method: 'PUT',
   headers: {

@@ -8,7 +8,7 @@ const MakeAdmin = () => {
 
   const handleAdminSubmit = e => {
       const user = {email};
-      fetch('http://localhost:8000/users/admin',{
+      fetch('https://food-soft-server-jsarafath.vercel.app/users/admin',{
           method:'PUT',
           headers:{
               'content-type':'application/json'

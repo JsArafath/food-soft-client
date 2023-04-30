@@ -7,7 +7,7 @@ const Choose = () => {
             <div class="container">
   <div class="row">
   <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-      <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/bg1.png' className='img-fluid  about-image mt-4 w-100'></img>
+      <img src='https://i.ibb.co/2WwwxkN/bg1-2-removebg-preview.png' className='img-fluid  about-image mt-4 w-100'></img>
       
     </div>
 

@@ -19,7 +19,7 @@ const MenuDetails = () => {
    const { register, handleSubmit, reset } = useForm();
    const onSubmit = data =>{
        console.log(data);
-       axios.post("http://localhost:8000/booking",data)
+       axios.post("https://food-soft-server-jsarafath.vercel.app/booking",data)
        .then(res=>{
            if(res.data.insertedId){
               alert("Added Successfully.")
@@ -33,7 +33,7 @@ const MenuDetails = () => {
      const {id} = useParams();
     const [food,setFood] = useState({})
      useEffect(()=>{
-         fetch(`http://localhost:8000/cars/${id}`)
+         fetch(`https://food-soft-server-jsarafath.vercel.app/cars/${id}`)
        .then(res=>res.json())
         .then(data=>setFood(data))
 

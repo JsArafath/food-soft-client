@@ -7,7 +7,7 @@ const About = () => {
             <div class="container">
   <div class="row">
   <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-      <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/about1.png' className='img-fluid  about-image mt-4 w-100'></img>
+      <img src='https://i.ibb.co/tLFM3d4/about1.png' className='img-fluid  about-image mt-4 w-100'></img>
       
     </div>
 
@@ -18,7 +18,7 @@ const About = () => {
 <Container>
   <Row>
     <Col sm={12} md={12} lg={3}>
-<img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea1.png' className='img-fluid mb-3'></img>
+<img src='https://i.ibb.co/1mVx6FC/f1.png' className='img-fluid mb-3'></img>
 
     </Col>
     <Col sm={12} md={12} lg={9}>
@@ -28,7 +28,7 @@ const About = () => {
   </Row>
   <Row>
     <Col sm={12} md={12} lg={3}>
-    <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea2.png' className='img-fluid mb-3'></img>
+    <img src='https://i.ibb.co/NxhgQbq/f2-1.png' className='img-fluid mb-3'></img>
     </Col>
     <Col sm={12} md={12} lg={9}>
     <h3>Safe Formalin</h3>
@@ -38,7 +38,7 @@ const About = () => {
   </Row>
   <Row>
     <Col sm={12} md={12} lg={3}>
-    <img src='https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/fea3.png' className='img-fluid'></img>
+    <img src='https://i.ibb.co/WkXLdVF/f3.png' className='img-fluid'></img>
     </Col>
     <Col sm={12} md={12} lg={9}>
     <h3>100% Testy Food</h3>
